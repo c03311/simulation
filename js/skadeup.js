@@ -33,13 +33,13 @@
             if(oncecheck==0)
             {SSSRNUM=Math.floor(Math.random()*(9+1));
             $(".once img").attr("src","img/六星/" + SSSR[SSSRNUM] + ".png");
-            $(".once img").attr("style","border:3px solid gold;margin-left:11%;");
+            $(".once img").attr("style","border:5px solid gold;margin-left:11%;");
             totalnum=0;
             }
             else if(oncecheck==1)
             {
                 $(".once img").attr("src","img/六星/" + SSSR[10] + ".png");
-                $(".once img").attr("style","border:3px solid gold;margin-left:11%;");
+                $(".once img").attr("style","border:5px solid gold;margin-left:11%;");
                 totalnum=0;
             }
             else if(oncecheck>=2&&oncecheck<=9)
@@ -66,14 +66,14 @@
             if(specialoncecheck>=98&&specialoncecheck<=(absolute+98)/2)
             {var SSSRNUM=Math.floor(Math.random()*(9+1));
             $(".once img").attr("src","img/六星/" + SSSR[SSSRNUM] + ".png");
-            $(".once img").attr("style","border:3px solid gold;margin-left:11%;");
+            $(".once img").attr("style","border:5px solid gold;margin-left:11%;");
             SSSRNUM=undefined;
             totalnum=0;
             absolute=101;}
             else if(specialoncecheck>=98&&specialoncecheck>=(absolute+98)/2)
             {var SSSRNUM=Math.floor(Math.random()*(9+1));
             $(".once img").attr("src","img/六星/" + SSSR[10] + ".png");
-            $(".once img").attr("style","border:3px solid gold;margin-left:11%;");
+            $(".once img").attr("style","border:5px solid gold;margin-left:11%;");
             SSSRNUM=undefined;
             totalnum=0;
             absolute=101;
@@ -117,13 +117,13 @@
                 if(ttoncecheck==0)
                 {   var tSSSRNUM=Math.floor(Math.random()*(9+1));
                     $(".result li:eq(" + i + ") img").attr("src","img/六星/" + SSSR[tSSSRNUM] + ".png");
-                    $(".result li:eq(" + i + ") img").attr("style","border:3px solid gold;");
+                    $(".result li:eq(" + i + ") img").attr("style","border:5px solid gold;");
                     TTtotalnum=0;
                 }
                 else if(ttoncecheck==1)
                 {
                     $(".result li:eq(" + i + ") img").attr("src","img/六星/" + SSSR[10] + ".png");
-                    $(".result li:eq(" + i + ") img").attr("style","border:3px solid gold;");
+                    $(".result li:eq(" + i + ") img").attr("style","border:5px solid gold;");
                     TTtotalnum=0;
                 }
                 else if(ttoncecheck>=2&&ttoncecheck<=9)
@@ -149,14 +149,14 @@
                 {if(TTspecialoncecheck>=98&&TTspecialoncecheck<=(TTabsolute+98)/2)
                 {   var tSSSRNUM=Math.floor(Math.random()*(9+1));
                     $(".result li:eq(" + i + ") img").attr("src","img/六星/" + SSSR[tSSSRNUM] + ".png");
-                    $(".result li:eq(" + i + ") img").attr("style","border:3px solid gold;");
+                    $(".result li:eq(" + i + ") img").attr("style","border:5px solid gold;");
                     tSSSRNUM=undefined;
                     TTtotalnum=0;
                     TTabsolute=101;
                 }
                 else if(TTspecialoncecheck>=98&&TTspecialoncecheck>=(TTabsolute+98)/2){
                     $(".result li:eq(" + i + ") img").attr("src","img/六星/" + SSSR[10] + ".png");
-                    $(".result li:eq(" + i + ") img").attr("style","border:3px solid gold;");
+                    $(".result li:eq(" + i + ") img").attr("style","border:5px solid gold;");
                     tSSSRNUM=undefined;
                     TTtotalnum=0;
                     TTabsolute=101;
