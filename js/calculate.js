@@ -9,17 +9,22 @@ var R=["安塞尔","芬","芙蓉","卡提","克洛丝","翎羽","梅兰莎","米
             var oncecheck=Math.floor(Math.random()*(99+1));
             if(oncecheck==0||oncecheck==1)
             {var SSSRNUM=Math.floor(Math.random()*(9+1));
-            $(".once img").attr("src","https://c03311.github.io/simulation/img/六星/" + SSSR[SSSRNUM] + ".png");}
+            $(".once img").attr("src","https://c03311.github.io/simulation/img/六星/" + SSSR[SSSRNUM] + ".png");
+            $(".once img").attr("style","border:3px solid gold;margin-left:11%;");
+        }
             else if(oncecheck>=2&&oncecheck<=9)
             {var SSRNUM=Math.floor(Math.random()*(25+1));
-            $(".once img").attr("src","https://c03311.github.io/simulation/img/五星/" + SSR[SSRNUM] + ".png");}
+            $(".once img").attr("src","https://c03311.github.io/simulation/img/五星/" + SSR[SSRNUM] + ".png");
+            $(".once img").attr("style","border:3px solid yellow;margin-left:11%;");
+        }
             else if(oncecheck>=10&&oncecheck<=59)
             {var SRNUM=Math.floor(Math.random()*(20+1));
-            $(".once img").attr("src","https://c03311.github.io/simulation/img/四星/" + SR[SRNUM] + ".png");}
+            $(".once img").attr("src","https://c03311.github.io/simulation/img/四星/" + SR[SRNUM] + ".png");
+            $(".once img").attr("style","border:3px solid #EE82EE;margin-left:11%;");}
             else
-            {
             {var RNUM=Math.floor(Math.random()*(11+1));
-            $(".once img").attr("src","https://c03311.github.io/simulation/img/三星/" + R[RNUM] + ".png");}
+            $(".once img").attr("src","https://c03311.github.io/simulation/img/三星/" + R[RNUM] + ".png");
+            $(".once img").attr("style","border:3px solid blue;margin-left:11%;");
             }
         });
         $(".buttons img:last").click(function(){
@@ -29,18 +34,22 @@ var R=["安塞尔","芬","芙蓉","卡提","克洛丝","翎羽","梅兰莎","米
                 if(oncecheck==0||oncecheck==1)
                 {   var tSSSRNUM=Math.floor(Math.random()*(9+1));
                     $(".result li:eq(" + i + ") img").attr("src","https://c03311.github.io/simulation/img/六星/" + SSSR[tSSSRNUM] + ".png");
+                    $(".result li:eq(" + i + ") img").attr("style","border:3px solid gold;");
                 }
                 else if(oncecheck>=2&&oncecheck<=9)
                 {   var tSSRNUM=Math.floor(Math.random()*(25+1));
                     $(".result li:eq(" + i + ") img").attr("src","https://c03311.github.io/simulation/img/五星/" + SSR[tSSRNUM] + ".png");
+                    $(".result li:eq(" + i + ") img").attr("style","border:3px solid yellow;");
                 }
                 else if(oncecheck>=10&&oncecheck<=59)
                 {   var tSRNUM=Math.floor(Math.random()*(20+1));
                     $(".result li:eq(" + i + ") img").attr("src","https://c03311.github.io/simulation/img/四星/" + SR[tSRNUM] + ".png");
+                    $(".result li:eq(" + i + ") img").attr("style","border:3px solid #EE82EE;");
                 }
                 else
                 {   var tRNUM=Math.floor(Math.random()*(11+1));
                     $(".result li:eq(" + i + ") img").attr("src","https://c03311.github.io/simulation/img/三星/" + R[tRNUM] + ".png");
+                    $(".result li:eq(" + i + ") img").attr("style","border:3px solid blue;");
                 }
             }
         });
