@@ -5,4 +5,4 @@
 3. This simulator will be keeped updating if new agents are added
 ## update log
 ### 2019-5-28 
-* add coloured border to distinguish the rare level of agents
+* add coloured border to distinguish the rare levels of agents
