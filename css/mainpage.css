@@ -1,0 +1,31 @@
+.title img
+    {
+        width:80%;
+        margin:1% 10%;
+    }
+    .buttons
+    {
+        width:100%;
+        margin:0 10%;
+    }
+    .buttons img
+    {
+        cursor: pointer;
+        margin-right:3%;
+
+    }
+    .display
+    {
+        margin-top:3%;
+        border:solid 1px black;
+    }
+    .result
+    {
+        list-style-type:none;
+        margin-left:8%;
+    }
+    .result li
+    {
+        display: inline;
+        margin-right:5%;
+    }
